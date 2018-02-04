@@ -6,19 +6,18 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		System.out.println("Площадь треугольника по формуле Герона.");
-		//System.out.println("Нам дано 3 стороны - 9,12,10.");
+		System.out.println("The area of the triangle according to Heron's formula.");
 
 		double a;
 		double c;
 		double b;
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Введите значение для стороны №1;");
+		System.out.println("Enter the value for side в„–1;");
 		a = sc.nextDouble();
-		System.out.println("Введите значение для стороны №2;");
+		System.out.println("Enter the value for side в„–2;");
 		b = sc.nextDouble();
-		System.out.println("Введите значение для стороны №3;");
+		System.out.println("Enter the value for side в„–3;");
 		c = sc.nextDouble();
 		
 		sc.close();
@@ -27,7 +26,7 @@ public class Main {
 
 		double s = Math.sqrt(p * (p - a) * (p - b) * (p - c));
 
-		System.out.println("Площадь треугольника =" + s);
+		System.out.println("Area of the triangle =" + s);
 	}
 
 }
